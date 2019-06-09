@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "224604003997",
+    "firebase_url": "https://plantcontrolsystem-94289.firebaseio.com",
+    "project_id": "plantcontrolsystem-94289",
+    "storage_bucket": "plantcontrolsystem-94289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224604003997:android:965d487ea907b681",
+        "android_client_info": {
+          "package_name": "com.example.a20190418test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224604003997-lh5n0v0mda9phmqtmlm1ktbh7l8pd0s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a20190418test",
+            "certificate_hash": "8346b323164a5f6bc12a4a670a92d2858de0cb38"
+          }
+        },
+        {
+          "client_id": "224604003997-0picnee8vfeugehrmacr184r292nqu6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-aejpqu86ouHacSOjx0NBmy2QJQ9xzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224604003997-0picnee8vfeugehrmacr184r292nqu6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

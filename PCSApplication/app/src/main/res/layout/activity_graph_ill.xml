@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".GraphIll">
+    <TextView
+            android:text="날짜별 조도 그래프"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:background="@drawable/line"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp" android:id="@+id/textView8"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="550dp" android:orientation="horizontal">
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/listGraphIll"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </com.github.mikephil.charting.charts.LineChart>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/windowbar"
+            android:layout_height="93dp" android:layout_weight="0">
+
+        <Button
+                android:layout_width="25dp"
+                android:layout_marginLeft="90dp"
+                android:layout_height="25dp" android:layout_weight="0"
+                android:background="@drawable/refresh"
+                android:id="@+id/btnGraphIllRefresh"
+        />
+
+        <Button
+                android:layout_width="25dp"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="70dp"
+                android:layout_height="25dp"  android:layout_weight="0"
+                android:background="@drawable/home"
+                android:id="@+id/btnGraphIllHome"
+                />
+
+        <Button
+                android:layout_width="25dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/grid"
+                android:layout_height="25dp" android:id="@+id/btnIllTable"/>
+    </LinearLayout>
+
+</LinearLayout>
